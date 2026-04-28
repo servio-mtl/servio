@@ -726,10 +726,10 @@ footer{background:var(--ink);padding:56px 64px 36px}
               </div>
               <input type="hidden" id="av-tone" value="professionnel et chaleureux">
             </div>
-            <button class="gen-btn" onclick="genAvis()" id="btn-av">✨ <span id="bt-av">Générer la réponse</span></button>
+            <button class="gen-btn" onclick="genAvis()" id="btn-av">✨ <span id="bt-av">generate la réponse</span></button>
             <div class="out-wrap" id="ow-av" style="display:none">
               <div class="out-box" id="ob-av"></div>
-              <div class="out-actions"><button class="act-btn" onclick="copyEl('ob-av')">📋 <span id="t-copy">Copier</span></button><button class="act-btn" onclick="genAvis()">🔄 <span id="t-regen">Regénérer</span></button></div>
+              <div class="out-actions"><button class="act-btn" onclick="copyEl('ob-av')">📋 <span id="t-copy">Copier</span></button><button class="act-btn" onclick="genAvis()">🔄 <span id="t-regen">Regenerate</span></button></div>
             </div>
           </div>
         </div>
@@ -750,10 +750,10 @@ footer{background:var(--ink);padding:56px 64px 36px}
             </div>
             <input type="hidden" id="po-type" value="plat du jour">
             <div class="field"><label id="fl-po-dt">Détails (optionnel)</label><textarea id="po-det" rows="2" placeholder="Ex: Risotto aux truffes, 28$, ce soir seulement..."></textarea></div>
-            <button class="gen-btn" onclick="genPosts()" id="btn-po">✨ <span id="bt-po">Générer les posts</span></button>
+            <button class="gen-btn" onclick="genPosts()" id="btn-po">✨ <span id="bt-po">generate les posts</span></button>
             <div id="po-out" style="display:none">
               <div class="posts-grid" id="po-grid"></div>
-              <div class="out-actions" style="margin-top:12px"><button class="act-btn" onclick="genPosts()">🔄 <span id="t-regen2">Regénérer</span></button></div>
+              <div class="out-actions" style="margin-top:12px"><button class="act-btn" onclick="genPosts()">🔄 <span id="t-regen2">Regenerate</span></button></div>
             </div>
           </div>
         </div>
@@ -775,10 +775,10 @@ footer{background:var(--ink);padding:56px 64px 36px}
               <div class="field"><label id="fl-em-fm">Format</label><select id="em-fmt"><option value="email">📧 Email complet</option><option value="SMS">📱 SMS (160 car.)</option></select></div>
               <div class="field"><label id="fl-em-dt">Détails de l'offre</label><input type="text" id="em-det" placeholder="Ex: -20% sur tous les menus ce samedi"></div>
             </div>
-            <button class="gen-btn" onclick="genEmail()" id="btn-em">✨ <span id="bt-em">Générer la campagne</span></button>
+            <button class="gen-btn" onclick="genEmail()" id="btn-em">✨ <span id="bt-em">generate la campagne</span></button>
             <div class="out-wrap" id="ow-em" style="display:none">
               <div class="out-box" id="ob-em"></div>
-              <div class="out-actions"><button class="act-btn" onclick="copyEl('ob-em')">📋 <span id="t-copy2">Copier</span></button><button class="act-btn" onclick="genEmail()">🔄 <span id="t-regen3">Regénérer</span></button></div>
+              <div class="out-actions"><button class="act-btn" onclick="copyEl('ob-em')">📋 <span id="t-copy2">Copier</span></button><button class="act-btn" onclick="genEmail()">🔄 <span id="t-regen3">Regenerate</span></button></div>
             </div>
           </div>
         </div>
@@ -925,7 +925,7 @@ const T={
     ctAv:'Avis du client',ctPo:'Type de post',ctEm:'Type de campagne',
     flAvTx:"Collez l'avis Google ici",flAvNo:'Note',flAvPr:'Prénom client (optionnel)',flAvTo:'Ton de la réponse',
     flPoDt:'Détails (optionnel)',flEmFm:'Format',flEmDt:"Détails de l'offre",
-    btAv:'Générer la réponse',btPo:'Générer les posts',btEm:'Générer la campagne',
+    btAv:'generate la réponse',btPo:'generate les posts',btEm:'generate la campagne',
     tn1:'Chaleureux',tn2:'Formel',tn3:'Décontracté',tn4:'Empathique',
     tp1:'Plat du jour',td1:'Menu du moment',tp2:'Événement',td2:'Soirée, fête',
     tp3:'Promotion',td3:'Offre spéciale',tp4:'Témoignage',td4:'Avis client',
@@ -938,7 +938,7 @@ const T={
     qs:'Démarrage rapide',
     qsB:'Configurez votre restaurant ci-dessus, puis choisissez un outil.\n\n<b>1.</b> Renseignez le nom, type de cuisine et ville.\n<b>2.</b> Répondez à vos avis Google en quelques secondes.\n<b>3.</b> Générez vos posts Instagram et Facebook automatiquement.\n<b>4.</b> Créez des campagnes emails et SMS qui ramènent vos clients.',
     lwAv:'Limite de réponses atteinte ce mois.',lwPo:'Limite de posts atteinte ce mois.',lwEm:'Limite de campagnes atteinte ce mois.',
-    loading:'Génération en cours...',copy:'Copier',regen:'Regénérer',
+    loading:'Génération en cours...',copy:'Copier',regen:'Regenerate',
     copied:'✅ Copié dans le presse-papier !',
     umLand:'Retour au site',umLogout:'Déconnexion',umAccount:'Mon compte',
     acT1:'Informations personnelles',acL1:'Prénom',acL2:'Nom',acL3:'Email',acSave:'Sauvegarder',
